@@ -1,6 +1,6 @@
 # Typus: Admin Panel for Ruby on Rails applications
 
-**Typus** allows trusted users to edit structured content.
+**Typus** allows trusted users to edit structured content. This version has been heavily modified for the web app Gruvi.
 
 ## Key Features
 
