@@ -20,6 +20,5 @@ Gem::Specification.new do |s|
 
   s.add_dependency "bcrypt-ruby"
   s.add_dependency "fastercsv", "~> 1.5"
-  s.add_dependency "render_inheritable"
   s.add_dependency "will_paginate", "~> 3.0.pre2"
 end
