@@ -33,10 +33,12 @@ module Admin
     end
 
     def display_flash_message(message = flash)
-      if message.keys.any?
-        locals = { :flash_type => message.keys.first, :message => message }
-        render "admin/helpers/base/flash_message", locals
-      end
+      return "Record Updated/Changed"
+      
+      #if message.keys.any?
+      #  locals = { :flash_type => message.keys.first, :message => message }
+      #  render "admin/helpers/base/flash_message", locals
+      #end
     end
 
   end
